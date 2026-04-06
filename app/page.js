@@ -2,7 +2,7 @@ const payload = {
   nome: 'Rafael Paschoalotti',
   email: 'rafael.paschoalotti@fatec.sp.gov.br',
   ra: '01392321017',
-};
+}
 
 export default function Home() {
   return (
@@ -14,5 +14,5 @@ export default function Home() {
       <p>Resposta JSON:</p>
       <pre>{JSON.stringify(payload, null, 2)}</pre>
     </main>
-  );
+  )
 }
